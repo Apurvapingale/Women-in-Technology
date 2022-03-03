@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.header{
+    min-height: 60vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('/images/techwomen.png');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.nav-links{
+    flex: 1;
+    text-align: center;
+}
+
+.nav-links ul li{
+    display: inline-block;
+    padding: 15px 12px;
+    position: relative;
+}
+
+.nav-links a{
+    color: rgb(235, 220, 220);
+    text-decoration: none;
+    font-size: 13px;
+}
+
+/* .nav-links #: first-child{
+     color: red;
+} */
+
+
+
+.title{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 600;
+    margin: 12px 0;
+    color: #fff3f3;
+}
+
+.text-box{
+    width: 100%;
+    color: rgb(245, 212, 212);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.row{
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.home-col {
+        flex-basis: 31%;
+        background: #fff3f3;
+        border-radius: 10px;
+        margin-bottom: 5%;
+        padding: 20px 12px;
+        box-sizing: border-box;
+        text-align: left;
+}
+    
+
+.home-col img{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    border: 2px solid rgb(248, 242, 242);
+}
+
+
+.course-col{
+    flex-basis: 31%;
+    background: #cfcccc;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+
+.course-col img{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    border: 2px solid rgb(248, 242, 242);
+}
+
+.sub-col{
+    flex-basis: 31%;
+    background: #ecebdb;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+
+.sub-col img{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    border: 2px solid rgb(248, 242, 242);
+}
+
+
+h1{
+    text-align: center;
+    font-weight: 80px;
+    font-size: 45px;
+    margin: 10px 0;
+    color: blue;
+}
+
+.form{ 
+    text-align: left;
+    background-color: rgb(250, 244, 244);
+    margin: 16px;
+  
+   padding: 23px 226px 23px 145px;
+   margin: 80px;
+ 
+  
+} 
+
+.btn {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0px 9px;
+    background-color: rgb(84, 48, 245);
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.btn:hover {
+    background-color: rgb(31, 30, 30);
+}
